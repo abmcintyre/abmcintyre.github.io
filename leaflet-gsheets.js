@@ -11,8 +11,8 @@ function init() {
   // PASTE YOUR URLs HERE
   // these URLs come from Google Sheets 'shareable link' form
   // the first is the polygon layer and the second the points
-  var polyURL = 'https://docs.google.com/spreadsheets/d/1EUFSaqi30b6oefK0YWWNDDOzwmCTTXlXkFHAc2QrUxM/edit?usp=sharing';
-  var pointsURL = 'https://docs.google.com/spreadsheets/d/17EVLKmK7-52xxPOZUPLp1DiOfY33WOZXrSHjGlZgcqI/edit?usp=sharing';
+  var polyURL = 'https://docs.google.com/spreadsheets/d/1N_Wfbzv_3RBBaPLa5IKZ84IGvz9IS4Wnxs2TAQdgtEI/edit?usp=sharing';
+  var pointsURL = 'https://docs.google.com/spreadsheets/d/1gr_JyCSMF9BUAdhUwDOT5zrbDU46YiCGpIxR1-OI_qw/edit?usp=sharing';
 
   Tabletop.init( { key: polyURL,
     callback: addPolygons,
